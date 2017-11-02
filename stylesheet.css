@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ededed;
+
+}
+/** d0d0d0 #b8b8b8 ededed **/
+
+.logo {
+  max-width: 100vw;
+  padding-top: 10px;
+}
+/** !!!!!DU IKKE GAMMEL NOK TIL AT ÆNDRE I DENNE KODE **/
+header {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/test2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+#logolink {
+  margin: 0;
+  background-color: inherit;
+  padding: 0;
+}
+
+/** Koden til Navigations baren **/
+nav {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #333333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+a {
+
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+}
+
+
+/** Footer style **/
+#copy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  float: left;
+  display: inline-block;
+  margin: auto;
+  padding: 4px;
+  margin-top: 10px;
+
+
+}
+
+i {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  padding: 4px;
+  display: inline-block;
+}
+
+
+footer{
+  margin: 0 auto;
+  background-color: #333333;
+  padding: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+/** Jose numse kode **/
+.kasser {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+/** Jose numse kode **/
+
+/**** EMILS KODE ***/
+.Pakkebilleder {
+  width: 100%;
+  height: auto;
+}
+
+/**************************NAJA KODE ****************************/
+.indretningbillede {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.ind {
+  display: inline;
+  font-family: 'Arapey', sans-serif;
+  color: #8d802c;
+  font-size: 35px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+}
+
+p {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+/***************************** ANAMS KODE**************************/
+/*BILLEDE 1*/
+/*Tekst style*/
+h1 {
+  margin: auto;
+
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  display: block;
+  color: white;
+}
+/*Style af hele boksen*/
+.billede1 {
+  background-image: url(img/livingroom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+/*BILLEDE 2*/
+/*Style a tekst link*/
+.billede2 a {
+  margin: auto;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 60%;
+  text-align: center;
+  display: block;
+  color: white;
+}
+/*Style af hele boksen*/
+.billede2 {
+  background-image: url(img/bedroom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+/*BILLEDE 3*/
+/*Style af tekst til boksen*/
+.billede3 a{
+  margin: auto;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 60%;
+  text-align: center;
+  display: block;
+  color: white;
+}
+/*Style af hele boksen*/
+.billede3{
+  background-image: url(img/rum.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+/************************** ANAMS KODE SLUT ********************************/
+
+/************************** 1100px **********************************/
+@media (min-width: 1100px) {
+
+body {
+  width: 60%;
+}
+
+
+.logo {
+  width: 40%;
+}
+
+iframe {
+  height: 400px;
+}
+/*************************NAJA KODE ************************************/
+figure {
+  margin: 0;
+  display: inline-block;
+}
+figcaption{
+margin-top: 5px;
+vertical-align: text-top;
+
+}
+.indretningbillede {
+  display: inline-block;
+  max-width: 50%;
+  float: left;
+  margin-right: 10px;
+
+}
+
+/************************* Jose numse kode *********************************/
+.kasser {
+  max-width: 33.3333333333%;
+  height: auto;
+  float: left;
+margin-top: 0px;
+margin-left: 0px;
+}
+/************************** Jose numse kode *******************************/
+
+/** ANAMS NUMSE KODE**/
+/*BILLEDE 1*/
+h1{
+  font-size: 60px;
+  width: 80%;
+  color: white;
+}
+.billede1 {
+  width: 100%;
+  position: relative;
+}
+/*BILLEDE 2*/
+.billede2 a{
+  font-size: 60px;
+  width: 80%;
+}
+
+.billede2 {
+  width: 100%;
+  position: relative;
+}
+/*Billede 3*/
+.billede3 a{
+  font-size: 60px;
+  width: 80%;
+}
+
+.billede3{
+  width: 100%;
+  position: relative;
+}
+
+/** NUMSE KODE SLUT **/
+}
+
+
+/***********************Kode til min width 500px**************************/
+@media (min-width: 500px) {
+/*BILLEDE 1*/
+h1{
+  font-size: 35px;
+}
+
+.billede1 {
+  width: 100%;
+  position: relative;
+}
+/*BILLEDE 2*/
+.billede2 a{
+  font-size: 35px;
+}
+.billede2 {
+  width: 100%;
+  position: relative;
+}
+/*BILLEDE 3*/
+.billede3 a{
+  font-size: 34px;
+}
+.billede3 {
+  width: 100%;
+  position: relative;
+}
+}
